@@ -12,7 +12,7 @@
       <CardHeader 
         title="Mountain Adventure" 
         subtitle="A serene view of the mountains"
-        image="https://via.placeholder.com/100"
+        
       />
       <CardBody :collapsible="true" :expanded="true" ariaLabel="Card Content">
         <p>
@@ -30,7 +30,7 @@
       <CardHeader 
         title="Beach Bliss" 
         subtitle="Feel the waves and the sun"
-        image="https://images.unsplash.com/photo-1445820130724-e5e0c89eac3f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fGZvcmVzdHxlbnwwfHx8fDE2OTg0OTk4MTA&ixlib=rb-1.2.1&q=80&w=1080"
+       
       />
       <CardBody :collapsible="true" :expanded="true" ariaLabel="Card Content">
         <p>
@@ -41,14 +41,14 @@
 
     <div v-if="currentCardIndex === 2" class="card">
       <CardImage 
-        src="https://via.placeholder.com/600x400?text=Nature+Image+3" 
+        src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGRlc2VydHxlbnwwfHx8fDE2OTg1MDE1NjA&ixlib=rb-1.2.1&q=80&w=1080" 
         caption="Calm Forest" 
         overlay="Walk Among the Trees"
       />
       <CardHeader 
         title="Forest Retreat" 
         subtitle="Immerse yourself in greenery"
-        image="https://via.placeholder.com/100"
+      
       />
       <CardBody :collapsible="true" :expanded="true" ariaLabel="Card Content">
         <p>
